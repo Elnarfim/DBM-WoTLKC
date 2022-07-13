@@ -1,9 +1,9 @@
-[![Build Status](https://github.com/DeadlyBossMods/DBM-BCC/workflows/CI/badge.svg)](https://github.com/DeadlyBossMods/DBM-BCC/actions?workflow=CI)
+[![Build Status](https://github.com/DeadlyBossMods/DBM-BCC/workflows/CI/badge.svg)](https://github.com/DeadlyBossMods/DBM-WoTLKC/actions?workflow=CI)
 [![DeadlyBossMods on Discord](https://img.shields.io/badge/discord-DeadlyBossMods-738bd7.svg?style=flat)](https://discord.gg/DeadlyBossMods) 
 
 [![Patreon](https://media.forgecdn.net/attachments/76/25/patreon-medium-button.png)](https://www.patreon.com/deadlybossmods)
 
-# Deadly Boss Mods (TBC)
+# Deadly Boss Mods (WoTLK Classic)
 ### [Supporter Benefits](https://www.deadlybossmods.com/forum/viewtopic.php?f=7&t=428#p1180)
 ### [Some basic DBM setup/advanced features guides](https://github.com/DeadlyBossMods/DeadlyBossMods/wiki)
 
