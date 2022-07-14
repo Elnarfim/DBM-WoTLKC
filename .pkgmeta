@@ -59,7 +59,6 @@ move-folders:
   DBM-Placeholder/DBM-BCC/DBM-Hyjal: DBM-Hyjal
   DBM-Placeholder/DBM-BCC/DBM-Karazhan: DBM-Karazhan
   DBM-Placeholder/DBM-BCC/DBM-MC: DBM-MC
-  DBM-Placeholder/DBM-BCC/DBM-Onyxia: DBM-Onyxia
   DBM-Placeholder/DBM-BCC/DBM-Outlands: DBM-Outlands
   DBM-Placeholder/DBM-BCC/DBM-Serpentshrine: DBM-Serpentshrine
   DBM-Placeholder/DBM-BCC/DBM-Sunwell: DBM-Sunwell
@@ -72,5 +71,4 @@ move-folders:
   DBM-Placeholder/DBM-Unified/DBM-StatusBarTimers: DBM-StatusBarTimers
   DBM-Placeholder/DBM-VPVEM/DBM-VPVEM: DBM-VPVEM
 
-  DBM-Placeholder/DBM-BCC/DBM-Naxx: DBM-Placeholder/DBM-Naxx
   DBM-Placeholder/CHANGELOG.md: DBM-CORE/CHANGELOG.md
