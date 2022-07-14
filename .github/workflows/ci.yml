@@ -28,7 +28,7 @@ jobs:
         uses: QartemisT/packager@master
         if: ${{ github.event_name != 'pull_request' }}
         with:
-          args: -g bcc -n "DBM-{project-version}{classic}"
+          args: -g wrath -n "DBM-{project-version}{classic}"
         env:
           CF_API_KEY: ${{ secrets.CF_API_KEY }}
           GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
