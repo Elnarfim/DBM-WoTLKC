@@ -1,64 +1,76 @@
-package-as: DBM-Icecrown
+package-as: DBM-Placeholder
 
 externals:
-  DBM-Icecrown: https://github.com/DeadlyBossMods/DBM-Unified
-  DBM-Icecrown/Libs/CallbackHandler-1.0: https://repos.wowace.com/wow/callbackhandler/trunk/CallbackHandler-1.0
-  DBM-Icecrown/Libs/LibChatAnims: https://repos.wowace.com/wow/libchatanims/trunk/LibChatAnims
-  DBM-Icecrown/Libs/LibDBIcon-1.0: https://repos.wowace.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
-  DBM-Icecrown/Libs/LibDurability: https://repos.wowace.com/wow/libdurability/trunk/LibDurability
-  DBM-Icecrown/Libs/LibLatency: https://repos.wowace.com/wow/liblatency/trunk/LibLatency
-  DBM-Icecrown/Libs/LibSharedMedia-3.0: https://repos.wowace.com/wow/libsharedmedia-3-0/trunk/LibSharedMedia-3.0
-  DBM-Icecrown/Libs/LibStub: https://repos.wowace.com/wow/libstub/trunk
-  DBM-Icecrown/Libs/LibDataBroker-1.1: https://github.com/tekkub/libdatabroker-1-1
-  DBM-Icecrown/Libs/LibDeflate: https://github.com/SafeteeWoW/LibDeflate
-  DBM-Icecrown/Libs/LibSerialize: https://github.com/rossnichols/LibSerialize
-  DBM-Icecrown/Libs/LibSpecialization: https://repos.wowace.com/wow/libspecialization/trunk/LibSpecialization
+  DBM-WOTLKC: https://github.com/DeadlyBossMods/DBM-WoTLK
+  DBM-BCC: https://github.com/DeadlyBossMods/DBM-BCC
+  DBM-Unified: https://github.com/DeadlyBossMods/DBM-Unified
+  DBM-Unified/DBM-Core/Libs/CallbackHandler-1.0: https://repos.wowace.com/wow/callbackhandler/trunk/CallbackHandler-1.0
+  DBM-Unified/DBM-Core/Libs/LibChatAnims: https://repos.wowace.com/wow/libchatanims/trunk/LibChatAnims
+  DBM-Unified/DBM-Core/Libs/LibDBIcon-1.0: https://repos.wowace.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
+  DBM-Unified/DBM-Core/Libs/LibDurability: https://repos.wowace.com/wow/libdurability/trunk/LibDurability
+  DBM-Unified/DBM-Core/Libs/LibLatency: https://repos.wowace.com/wow/liblatency/trunk/LibLatency
+  DBM-Unified/DBM-Core/Libs/LibSharedMedia-3.0: https://repos.wowace.com/wow/libsharedmedia-3-0/trunk/LibSharedMedia-3.0
+  DBM-Unified/DBM-Core/Libs/LibStub: https://repos.wowace.com/wow/libstub/trunk
+  DBM-Unified/DBM-Core/Libs/LibDataBroker-1.1: https://github.com/tekkub/libdatabroker-1-1
+  DBM-Unified/DBM-Core/Libs/LibDeflate: https://github.com/SafeteeWoW/LibDeflate
+  DBM-Unified/DBM-Core/Libs/LibSerialize: https://github.com/rossnichols/LibSerialize
+  DBM-Unified/DBM-Core/Libs/LibSpecialization: https://repos.wowace.com/wow/libspecialization/trunk/LibSpecialization
   DBM-VPVEM: https://github.com/DeadlyBossMods/DBM-Voicepack-VEM
 
 ignore:
-  - DBM-Icecrown/Libs/LibDeflate/docs
-  - DBM-Icecrown/Libs/LibDeflate/examples
-  - DBM-Icecrown/Libs/LibDeflate/LibDeflate.toc
-  - DBM-Icecrown/Libs/LibDeflate/README.md
-  - DBM-Icecrown/Libs/LibDeflate/CONTRIBUTING.md
-  - DBM-Icecrown/Libs/LibDeflate/changelog.md
-  - DBM-Icecrown/Libs/LibStub/tests
-  - DBM-Icecrown/Libs/LibDataBroker-1.1/README.textile
+  - DBM-Unified/DBM-Core/Libs/LibDeflate/docs
+  - DBM-Unified/DBM-Core/Libs/LibDeflate/examples
+  - DBM-Unified/DBM-Core/Libs/LibDeflate/LibDeflate.toc
+  - DBM-Unified/DBM-Core/Libs/LibDeflate/README.md
+  - DBM-Unified/DBM-Core/Libs/LibDeflate/CONTRIBUTING.md
+  - DBM-Unified/DBM-Core/Libs/LibDeflate/changelog.md
+  - DBM-Unified/DBM-Core/Libs/LibStub/tests
+  - DBM-Unified/DBM-Core/Libs/LibDataBroker-1.1/README.textile
+  - DBM-Icecrown/LICENSE
+  - DBM-Icecrown/README.md
+  - DBM-Outlands/LICENSE
+  - DBM-Outlands/README.md
+  - DBM-Unified/LICENSE
+  - DBM-Unified/README.md
   - DBM-VPVEM/README.md
+  - DBM-Placeholder
 
 enable-nolib-creation: no
 
 move-folders:
-  DBM-Icecrown/DBM-ChamberOfAspects: DBM-ChamberOfAspects
-  DBM-Icecrown/DBM-Coliseum: DBM-Coliseum
-  DBM-Icecrown/DBM-EyeOfEternity: DBM-EyeOfEternity
-  DBM-Icecrown/DBM-Icecrown: DBM-Icecrown
-  DBM-Icecrown/DBM-Naxx: DBM-Naxx
-  DBM-Icecrown/DBM-Onyxia: DBM-Onyxia
-  DBM-Icecrown/DBM-Ulduar: DBM-Ulduar
-  DBM-Icecrown/DBM-VoA: DBM-VoA
-  DBM-Icecrown/DBM-Party-Classic: DBM-Party-Classic
-  DBM-Icecrown/DBM-Party-BC: DBM-Party-BC
-  DBM-Icecrown/DBM-Party-WotLK: DBM-Party-WotLK
-  DBM-Icecrown/DBM-AQ20: DBM-AQ20
-  DBM-Icecrown/DBM-AQ40: DBM-AQ40
-  DBM-Icecrown/DBM-Azeroth: DBM-Azeroth
-  DBM-Icecrown/DBM-BlackTemple: DBM-BlackTemple
-  DBM-Icecrown/DBM-BWL: DBM-BWL
-  DBM-Icecrown/DBM-Hyjal: DBM-Hyjal
-  DBM-Icecrown/DBM-Karazhan: DBM-Karazhan
-  DBM-Icecrown/DBM-MC: DBM-MC
-  DBM-Icecrown/DBM-Naxx: DBM-Naxx
-  DBM-Icecrown/DBM-Onyxia: DBM-Onyxia
-  DBM-Icecrown/DBM-Outlands: DBM-Outlands
-  DBM-Icecrown/DBM-Serpentshrine: DBM-Serpentshrine
-  DBM-Icecrown/DBM-Sunwell: DBM-Sunwell
-  DBM-Icecrown/DBM-TheEye: DBM-TheEye
-  DBM-Icecrown/DBM-ZG: DBM-ZG
-  DBM-Icecrown/DBM-ZulAman: DBM-ZulAman
-  DBM-Icecrown/DBM-WorldEvents: DBM-WorldEvents
-  DBM-Icecrown/DBM-Core: DBM-Core
-  DBM-Icecrown/DBM-GUI: DBM-GUI
-  DBM-Icecrown/DBM-StatusBarTimers: DBM-StatusBarTimers
-  DBM-Icecrown/Libs: DBM-Core/Libs
-  DBM-Icecrown/DBM-VPVEM/DBM-VPVEM: DBM-VPVEM
+  DBM-Placeholder/DBM-BCC/DBM-Party-Classic: DBM-Party-Classic
+  DBM-Placeholder/DBM-BCC/DBM-Party-BC: DBM-Party-BC
+  DBM-Placeholder/DBM-Party-WotLK: DBM-Party-WotLK
+
+  DBM-Placeholder/DBM-WOTLKC/DBM-ChamberOfAspects: DBM-ChamberOfAspects
+  DBM-Placeholder/DBM-WOTLKC/DBM-Coliseum: DBM-Coliseum
+  DBM-Placeholder/DBM-WOTLKC/DBM-EyeOfEternity: DBM-EyeOfEternity
+  DBM-Placeholder/DBM-WOTLKC/DBM-Icecrown: DBM-Icecrown
+  DBM-Placeholder/DBM-WOTLKC/DBM-Naxx: DBM-Naxx
+  DBM-Placeholder/DBM-WOTLKC/DBM-Onyxia: DBM-Onyxia
+  DBM-Placeholder/DBM-WOTLKC/DBM-Ulduar: DBM-Ulduar
+  DBM-Placeholder/DBM-WOTLKC/DBM-VoA: DBM-VoA
+
+  DBM-Placeholder/DBM-BCC/DBM-AQ20: DBM-AQ20
+  DBM-Placeholder/DBM-BCC/DBM-AQ40: DBM-AQ40
+  DBM-Placeholder/DBM-BCC/DBM-Azeroth: DBM-Azeroth
+  DBM-Placeholder/DBM-BCC/DBM-BlackTemple: DBM-BlackTemple
+  DBM-Placeholder/DBM-BCC/DBM-BWL: DBM-BWL
+  DBM-Placeholder/DBM-BCC/DBM-Hyjal: DBM-Hyjal
+  DBM-Placeholder/DBM-BCC/DBM-Karazhan: DBM-Karazhan
+  DBM-Placeholder/DBM-BCC/DBM-MC: DBM-MC
+  DBM-Placeholder/DBM-BCC/DBM-Onyxia: DBM-Onyxia
+  DBM-Placeholder/DBM-BCC/DBM-Outlands: DBM-Outlands
+  DBM-Placeholder/DBM-BCC/DBM-Serpentshrine: DBM-Serpentshrine
+  DBM-Placeholder/DBM-BCC/DBM-Sunwell: DBM-Sunwell
+  DBM-Placeholder/DBM-BCC/DBM-TheEye: DBM-TheEye
+  DBM-Placeholder/DBM-BCC/DBM-ZG: DBM-ZG
+  DBM-Placeholder/DBM-BCC/DBM-ZulAman: DBM-ZulAman
+  DBM-Placeholder/DBM-BCC/DBM-WorldEvents: DBM-WorldEvents
+  DBM-Placeholder/DBM-Unified/DBM-Core: DBM-Core
+  DBM-Placeholder/DBM-Unified/DBM-GUI: DBM-GUI
+  DBM-Placeholder/DBM-Unified/DBM-StatusBarTimers: DBM-StatusBarTimers
+  DBM-Placeholder/DBM-VPVEM/DBM-VPVEM: DBM-VPVEM
+
+  DBM-Placeholder/DBM-BCC/DBM-Naxx: DBM-Placeholder/DBM-Naxx
+  DBM-Placeholder/CHANGELOG.md: DBM-CORE/CHANGELOG.md
