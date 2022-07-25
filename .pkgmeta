@@ -14,7 +14,9 @@ externals:
   DBM-Unified/DBM-Core/Libs/LibDataBroker-1.1: https://github.com/tekkub/libdatabroker-1-1
   DBM-Unified/DBM-Core/Libs/LibDeflate: https://github.com/SafeteeWoW/LibDeflate
   DBM-Unified/DBM-Core/Libs/LibSerialize: https://github.com/rossnichols/LibSerialize
-  DBM-Unified/DBM-Core/Libs/LibSpecialization: https://repos.wowace.com/wow/libspecialization/trunk/LibSpecialization
+  DBM-Unified/DBM-Core/Libs/LibSpecialization:
+     url: https://repos.wowace.com/wow/libspecialization/trunk/LibSpecialization
+     tag: v9.2.2
   DBM-VPVEM: https://github.com/DeadlyBossMods/DBM-Voicepack-VEM
 
 ignore:
