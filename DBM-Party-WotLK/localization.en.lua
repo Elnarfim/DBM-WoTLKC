@@ -831,7 +831,7 @@ L:SetGeneralLocalization{
 L = DBM:GetModLocalization(603)
 
 L:SetGeneralLocalization{
-	name 		= "Lich King Even"
+	name 		= "Lich King Event"
 }
 
 L:SetWarningLocalization({
