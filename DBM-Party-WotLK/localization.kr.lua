@@ -830,7 +830,7 @@ L = DBM:GetModLocalization(603)
 
 L:SetGeneralLocalization{
 	name 		= "리치 왕 이벤트"
-} 
+}
 
 L:SetTimerLocalization({
 	achievementEscape	= "탈출 제한 시간"
