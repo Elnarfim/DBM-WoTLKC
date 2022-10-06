@@ -60,9 +60,9 @@ function mod:SPELL_CAST_START(args)
 end
 
 function mod:UNIT_SPELLCAST_START(uId, _, spellId)
-   if spellId == 57496 then -- Insanity
-   		self:SendSync("Insanity")
-   end
+	if spellId == 57496 then -- Insanity
+		self:SendSync("Insanity")
+	end
 end
 
 function mod:OnSync(event)
