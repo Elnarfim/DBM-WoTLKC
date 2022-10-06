@@ -16,7 +16,7 @@ mod:RegisterEventsInCombat(
 	"SPELL_AURA_APPLIED 42730 59735",
 	"SPELL_AURA_REMOVED 42730 59735",
 	"UNIT_DIED",
-	"UNIT_SPELLCAST_SUCCEEDED boss1"
+	"UNIT_SPELLCAST_SUCCEEDED"
 )
 
 local warningWoeStrike	= mod:NewTargetNoFilterAnnounce(42730, 2, nil, "RemoveCurse", 2)
@@ -66,6 +66,13 @@ end
 
 function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, spellId)
 	if spellId == 42863 then -- Scourge Resurrection
+		self:SendSync("Stage2")
+	end
+end
+
+function mod:OnSync(event, arg)
+	if not self:IsInCombat() then return end
+	if event == "Stage2" then
 		self:SetStage(2)
 	end
 end

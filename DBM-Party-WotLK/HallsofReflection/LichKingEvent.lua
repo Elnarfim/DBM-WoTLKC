@@ -9,6 +9,7 @@ mod:RegisterEvents(
 	"UNIT_SPELLCAST_SUCCEEDED boss1"
 )
 
+--TODO, if boss tokens still don't exist by this classic content update, this mod is basically useless
 local WarnWave		= mod:NewAnnounce("WarnWave", 2)
 
 local timerEscape	= mod:NewAchievementTimer(360, 4526, "achievementEscape")
