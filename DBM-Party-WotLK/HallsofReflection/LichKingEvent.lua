@@ -16,9 +16,18 @@ local timerEscape	= mod:NewAchievementTimer(360, 4526, "achievementEscape")
 
 mod.vb.waveCount = 0
 
-local ragingGoul = L.Ghoul
-local witchDoctor = L.Doctor
-local abomination = L.Abom
+local ragingGoul
+local witchDoctor
+local abomination
+if mod:IsClassic() then
+	ragingGoul = L.Ghoul
+	witchDoctor = L.Doctor
+	abomination = L.Abom
+else
+	ragingGoul = DBM:EJ_GetSectionInfo(7276)
+	witchDoctor = DBM:EJ_GetSectionInfo(7278)
+	abomination = DBM:EJ_GetSectionInfo(7282)
+end
 
 local addWaves = {
 	[1] = { "6 "..ragingGoul, "1 "..witchDoctor },
