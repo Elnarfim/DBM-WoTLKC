@@ -40,7 +40,7 @@ ignore:
 enable-nolib-creation: no
 
 move-folders:
-  DBM-Placeholder/DBM-BCC/DBM-Party-Classic: DBM-Party-Classic
+  DBM-Placeholder/DBM-BCC/DBM-Party-Vanilla: DBM-Party-Vanilla
   DBM-Placeholder/DBM-BCC/DBM-Party-BC: DBM-Party-BC
   DBM-Placeholder/DBM-Party-WotLK: DBM-Party-WotLK
 
