@@ -14,6 +14,7 @@ externals:
   DBM-Unified/DBM-Core/Libs/LibDataBroker-1.1: https://github.com/tekkub/libdatabroker-1-1
   DBM-Unified/DBM-Core/Libs/LibDeflate: https://github.com/SafeteeWoW/LibDeflate
   DBM-Unified/DBM-Core/Libs/LibSerialize: https://github.com/rossnichols/LibSerialize
+  DBM-Unified/DBM-Core/Libs/LibDropDownMenu: https://github.com/HizurosWoWAddOns/LibDropDownMenu
   DBM-Unified/DBM-Core/Libs/LibSpecialization:
      url: https://repos.wowace.com/wow/libspecialization/trunk/LibSpecialization
      tag: v9.2.2
@@ -40,7 +41,7 @@ ignore:
 enable-nolib-creation: no
 
 move-folders:
-  DBM-Placeholder/DBM-BCC/DBM-Party-Classic: DBM-Party-Classic
+  DBM-Placeholder/DBM-BCC/DBM-Party-Vanilla: DBM-Party-Vanilla
   DBM-Placeholder/DBM-BCC/DBM-Party-BC: DBM-Party-BC
   DBM-Placeholder/DBM-Party-WotLK: DBM-Party-WotLK
 
