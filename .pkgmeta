@@ -3,6 +3,7 @@ package-as: DBM-Placeholder
 externals:
   DBM-WOTLKC: https://github.com/DeadlyBossMods/DBM-WoTLK
   DBM-BCC: https://github.com/DeadlyBossMods/DBM-BCC
+  DBM-Dungeons: https://github.com/DeadlyBossMods/DBM-Dungeons
   DBM-Unified: https://github.com/DeadlyBossMods/DBM-Unified
   DBM-Unified/DBM-Core/Libs/CallbackHandler-1.0: https://repos.wowace.com/wow/callbackhandler/trunk/CallbackHandler-1.0
   DBM-Unified/DBM-Core/Libs/LibChatAnims: https://repos.wowace.com/wow/libchatanims/trunk/LibChatAnims
@@ -43,7 +44,7 @@ enable-nolib-creation: no
 move-folders:
   DBM-Placeholder/DBM-BCC/DBM-Party-Vanilla: DBM-Party-Vanilla
   DBM-Placeholder/DBM-BCC/DBM-Party-BC: DBM-Party-BC
-  DBM-Placeholder/DBM-Party-WotLK: DBM-Party-WotLK
+  DBM-Placeholder/DBM-Dungeons/DBM-Party-WotLK: DBM-Party-WotLK
 
   DBM-Placeholder/DBM-WOTLKC/DBM-ChamberOfAspects: DBM-ChamberOfAspects
   DBM-Placeholder/DBM-WOTLKC/DBM-Coliseum: DBM-Coliseum
