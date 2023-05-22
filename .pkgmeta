@@ -46,14 +46,7 @@ move-folders:
   DBM-Placeholder/DBM-BCC/DBM-Party-BC: DBM-Party-BC
   DBM-Placeholder/DBM-Dungeons/DBM-Party-WotLK: DBM-Party-WotLK
 
-  DBM-Placeholder/DBM-WOTLKC/DBM-ChamberOfAspects: DBM-ChamberOfAspects
-  DBM-Placeholder/DBM-WOTLKC/DBM-Coliseum: DBM-Coliseum
-  DBM-Placeholder/DBM-WOTLKC/DBM-EyeOfEternity: DBM-EyeOfEternity
-  DBM-Placeholder/DBM-WOTLKC/DBM-Icecrown: DBM-Icecrown
-  DBM-Placeholder/DBM-WOTLKC/DBM-Naxx: DBM-Naxx
-  DBM-Placeholder/DBM-WOTLKC/DBM-Onyxia: DBM-Onyxia
-  DBM-Placeholder/DBM-WOTLKC/DBM-Ulduar: DBM-Ulduar
-  DBM-Placeholder/DBM-WOTLKC/DBM-VoA: DBM-VoA
+  DBM-Placeholder/DBM-WOTLKC/DBM-Raids-WoTLK: DBM-Raids-WoTLK
 
   DBM-Placeholder/DBM-BCC/DBM-AQ20: DBM-AQ20
   DBM-Placeholder/DBM-BCC/DBM-AQ40: DBM-AQ40
