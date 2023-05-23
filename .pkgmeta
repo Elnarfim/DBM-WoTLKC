@@ -51,21 +51,14 @@ move-folders:
 
   DBM-Placeholder/DBM-WOTLKC/DBM-Raids-WoTLK: DBM-Raids-WoTLK
   DBM-Placeholder/DBM-BCVanilla/DBM-Raids-BC: DBM-Raids-BC
+  DBM-Placeholder/DBM-BCVanilla/DBM-Outlands: DBM-Outlands
 
   DBM-Placeholder/DBM-BCC/DBM-AQ20: DBM-AQ20
   DBM-Placeholder/DBM-BCC/DBM-AQ40: DBM-AQ40
   DBM-Placeholder/DBM-BCC/DBM-Azeroth: DBM-Azeroth
-  DBM-Placeholder/DBM-BCC/DBM-BlackTemple: DBM-BlackTemple
   DBM-Placeholder/DBM-BCC/DBM-BWL: DBM-BWL
-  DBM-Placeholder/DBM-BCC/DBM-Hyjal: DBM-Hyjal
-  DBM-Placeholder/DBM-BCC/DBM-Karazhan: DBM-Karazhan
   DBM-Placeholder/DBM-BCC/DBM-MC: DBM-MC
-  DBM-Placeholder/DBM-BCC/DBM-Outlands: DBM-Outlands
-  DBM-Placeholder/DBM-BCC/DBM-Serpentshrine: DBM-Serpentshrine
-  DBM-Placeholder/DBM-BCC/DBM-Sunwell: DBM-Sunwell
-  DBM-Placeholder/DBM-BCC/DBM-TheEye: DBM-TheEye
   DBM-Placeholder/DBM-BCC/DBM-ZG: DBM-ZG
-  DBM-Placeholder/DBM-BCC/DBM-ZulAman: DBM-ZulAman
   DBM-Placeholder/DBM-BCC/DBM-WorldEvents: DBM-WorldEvents
   DBM-Placeholder/DBM-Unified/DBM-Core: DBM-Core
   DBM-Placeholder/DBM-Unified/DBM-GUI: DBM-GUI
