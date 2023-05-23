@@ -1,6 +1,7 @@
 package-as: DBM-Placeholder
 
 externals:
+  DBM-BCVanilla: https://github.com/DeadlyBossMods/DBM-BCVanilla
   DBM-WOTLKC: https://github.com/DeadlyBossMods/DBM-WoTLK
   DBM-BCC: https://github.com/DeadlyBossMods/DBM-BCC
   DBM-Dungeons: https://github.com/DeadlyBossMods/DBM-Dungeons
@@ -37,7 +38,9 @@ ignore:
   - DBM-Unified/LICENSE
   - DBM-Unified/README.md
   - DBM-VPVEM/README.md
+  - DBM-Raids-Vanilla
   - DBM-Placeholder
+  - DBM-BCPlaceholder
 
 enable-nolib-creation: no
 
@@ -47,6 +50,7 @@ move-folders:
   DBM-Placeholder/DBM-Dungeons/DBM-Party-WotLK: DBM-Party-WotLK
 
   DBM-Placeholder/DBM-WOTLKC/DBM-Raids-WoTLK: DBM-Raids-WoTLK
+  DBM-Placeholder/DBM-BCVanilla/DBM-Raids-BC: DBM-Raids-BC
 
   DBM-Placeholder/DBM-BCC/DBM-AQ20: DBM-AQ20
   DBM-Placeholder/DBM-BCC/DBM-AQ40: DBM-AQ40
