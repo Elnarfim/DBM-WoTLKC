@@ -38,7 +38,6 @@ ignore:
   - DBM-Unified/LICENSE
   - DBM-Unified/README.md
   - DBM-VPVEM/README.md
-  - DBM-Raids-Vanilla
   - DBM-Placeholder
   - DBM-BCPlaceholder
 
@@ -51,14 +50,10 @@ move-folders:
 
   DBM-Placeholder/DBM-WOTLKC/DBM-Raids-WoTLK: DBM-Raids-WoTLK
   DBM-Placeholder/DBM-BCVanilla/DBM-Raids-BC: DBM-Raids-BC
+  DBM-Placeholder/DBM-BCVanilla/DBM-Raids-Vanilla: DBM-Raids-Vanilla
   DBM-Placeholder/DBM-BCVanilla/DBM-Outlands: DBM-Outlands
 
-  DBM-Placeholder/DBM-BCC/DBM-AQ20: DBM-AQ20
-  DBM-Placeholder/DBM-BCC/DBM-AQ40: DBM-AQ40
   DBM-Placeholder/DBM-BCC/DBM-Azeroth: DBM-Azeroth
-  DBM-Placeholder/DBM-BCC/DBM-BWL: DBM-BWL
-  DBM-Placeholder/DBM-BCC/DBM-MC: DBM-MC
-  DBM-Placeholder/DBM-BCC/DBM-ZG: DBM-ZG
   DBM-Placeholder/DBM-BCC/DBM-WorldEvents: DBM-WorldEvents
   DBM-Placeholder/DBM-Unified/DBM-Core: DBM-Core
   DBM-Placeholder/DBM-Unified/DBM-GUI: DBM-GUI
