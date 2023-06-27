@@ -1,6 +1,7 @@
 package-as: DBM-Placeholder
 
 externals:
+  DBM-BCVanilla: https://github.com/DeadlyBossMods/DBM-BCVanilla
   DBM-WOTLKC: https://github.com/DeadlyBossMods/DBM-WoTLK
   DBM-BCC: https://github.com/DeadlyBossMods/DBM-BCC
   DBM-Dungeons: https://github.com/DeadlyBossMods/DBM-Dungeons
@@ -38,6 +39,7 @@ ignore:
   - DBM-Unified/README.md
   - DBM-VPVEM/README.md
   - DBM-Placeholder
+  - DBM-BCPlaceholder
 
 enable-nolib-creation: no
 
@@ -46,29 +48,12 @@ move-folders:
   DBM-Placeholder/DBM-BCC/DBM-Party-BC: DBM-Party-BC
   DBM-Placeholder/DBM-Dungeons/DBM-Party-WotLK: DBM-Party-WotLK
 
-  DBM-Placeholder/DBM-WOTLKC/DBM-ChamberOfAspects: DBM-ChamberOfAspects
-  DBM-Placeholder/DBM-WOTLKC/DBM-Coliseum: DBM-Coliseum
-  DBM-Placeholder/DBM-WOTLKC/DBM-EyeOfEternity: DBM-EyeOfEternity
-  DBM-Placeholder/DBM-WOTLKC/DBM-Icecrown: DBM-Icecrown
-  DBM-Placeholder/DBM-WOTLKC/DBM-Naxx: DBM-Naxx
-  DBM-Placeholder/DBM-WOTLKC/DBM-Onyxia: DBM-Onyxia
-  DBM-Placeholder/DBM-WOTLKC/DBM-Ulduar: DBM-Ulduar
-  DBM-Placeholder/DBM-WOTLKC/DBM-VoA: DBM-VoA
+  DBM-Placeholder/DBM-WOTLKC/DBM-Raids-WoTLK: DBM-Raids-WoTLK
+  DBM-Placeholder/DBM-BCVanilla/DBM-Raids-BC: DBM-Raids-BC
+  DBM-Placeholder/DBM-BCVanilla/DBM-Raids-Vanilla: DBM-Raids-Vanilla
+  DBM-Placeholder/DBM-BCVanilla/DBM-Outlands: DBM-Outlands
 
-  DBM-Placeholder/DBM-BCC/DBM-AQ20: DBM-AQ20
-  DBM-Placeholder/DBM-BCC/DBM-AQ40: DBM-AQ40
   DBM-Placeholder/DBM-BCC/DBM-Azeroth: DBM-Azeroth
-  DBM-Placeholder/DBM-BCC/DBM-BlackTemple: DBM-BlackTemple
-  DBM-Placeholder/DBM-BCC/DBM-BWL: DBM-BWL
-  DBM-Placeholder/DBM-BCC/DBM-Hyjal: DBM-Hyjal
-  DBM-Placeholder/DBM-BCC/DBM-Karazhan: DBM-Karazhan
-  DBM-Placeholder/DBM-BCC/DBM-MC: DBM-MC
-  DBM-Placeholder/DBM-BCC/DBM-Outlands: DBM-Outlands
-  DBM-Placeholder/DBM-BCC/DBM-Serpentshrine: DBM-Serpentshrine
-  DBM-Placeholder/DBM-BCC/DBM-Sunwell: DBM-Sunwell
-  DBM-Placeholder/DBM-BCC/DBM-TheEye: DBM-TheEye
-  DBM-Placeholder/DBM-BCC/DBM-ZG: DBM-ZG
-  DBM-Placeholder/DBM-BCC/DBM-ZulAman: DBM-ZulAman
   DBM-Placeholder/DBM-BCC/DBM-WorldEvents: DBM-WorldEvents
   DBM-Placeholder/DBM-Unified/DBM-Core: DBM-Core
   DBM-Placeholder/DBM-Unified/DBM-GUI: DBM-GUI

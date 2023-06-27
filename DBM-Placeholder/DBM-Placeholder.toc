@@ -1,4 +1,4 @@
-## Interface: 30401
+## Interface: 30402
 ## Version: @project-version@
 ## X-Curse-Project-ID: 3358
 ## X-WoWI-ID: 8814
